@@ -369,6 +369,22 @@ Tab:AddButton({
                                                     Callback = function()
                                                         loadstring(game:HttpGet('https://tubhub.cloud/scripts/prettyplease.lua', false))()                                                    end
                                                     })
+						    
+						    
+						    
+						    
+						    local Tab = Window:MakeTab({
+                                                    Name = "Public Bathroom",
+                                                    Icon = "rbxassetid://4483345998",
+                                                    PremiumOnly = false
+                                                }) 
+
+                                                Tab:AddButton({
+                                                    Name = "Ice Hub",
+                                                    Callback = function()
+                                                        loadstring(game:HttpGet("https://raw.githubusercontent.com/IceMael7/NewIceHub/main/Brookhaven"))()                                                    
+							end
+							})
     
     
         
