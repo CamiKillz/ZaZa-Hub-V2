@@ -94,7 +94,7 @@ Tab:AddButton({
 })
 
 Tab:AddButton({
-	Name = "Cframe invisibility",
+	Name = "Cframe invis (X Toggle)",
 	Callback = function()
 loadstring(game:HttpGet('https://raw.githubusercontent.com/yeerma/fff/main/make-a-CW-on-oooga-booga'))()    
 end
