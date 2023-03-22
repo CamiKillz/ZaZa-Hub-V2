@@ -374,7 +374,7 @@ Tab:AddButton({
 						    
 						    
 						    local Tab = Window:MakeTab({
-                                                    Name = "Bathroom Sim",
+                                                    Name = "Public Bathroom",
                                                     Icon = "rbxassetid://4483345998",
                                                     PremiumOnly = false
                                                 }) 
