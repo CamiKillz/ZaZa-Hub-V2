@@ -93,6 +93,13 @@ Tab:AddButton({
     end    
 })
 
+Tab:AddButton({
+	Name = "Invis (Click X To Go Invis) (R6/R15)",
+	Callback = function()
+loadstring(game:HttpGet('https://raw.githubusercontent.com/yeerma/fff/main/make-a-CW-on-oooga-booga'))()    
+end
+})
+
 
 
 local Tab = Window:MakeTab({
