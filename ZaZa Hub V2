@@ -181,6 +181,13 @@ Tab:AddButton({
 })
 
 Tab:AddButton({
+	Name = "Cherry UI",
+	Callback = function()
+      loadstring(game:HttpGet("https://raw.githubusercontent.com/RandomScriptr3/gggggggg/main/lolez.txt", true))()
+    end 
+    })
+
+Tab:AddButton({
 	Name = "Dizzy Hub",
 	Callback = function()
         loadstring(game:HttpGet("https://raw.githubusercontent.com/dizyhvh/slap_battles_gui/main/0.lua"))()
