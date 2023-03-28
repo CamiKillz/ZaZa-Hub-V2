@@ -38,6 +38,13 @@ Tab:AddButton({
 })
 
 Tab:AddButton({
+	Name = "R6 Animations",
+	Callback = function()
+loadstring(game:HttpGet("https://pastebin.com/raw/Rx4Qqicd"))()     
+    end
+})
+
+Tab:AddButton({
 	Name = "Eat Hats",
 	Callback = function()
         loadstring(game:HttpGet("https://pastebin.com/raw/2vRNRif5", true))()
@@ -198,6 +205,13 @@ Tab:AddButton({
 	Name = "Slap Royal GUI",
 	Callback = function()
         loadstring(game:HttpGet("https://pastebin.com/raw/wuvvJCfc"))()    
+    end    
+})
+
+Tab:AddButton({
+	Name = "R20 Slap Royal",
+	Callback = function()
+loadstring(game:HttpGet(("https://raw.githubusercontent.com/cheesynob39/SB-SR/main/Slap_Royale.lua")))()    
     end    
 })
 
