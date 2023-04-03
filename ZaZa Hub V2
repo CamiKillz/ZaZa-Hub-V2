@@ -413,6 +413,29 @@ Tab:AddButton({
                                                         loadstring(game:HttpGet("https://raw.githubusercontent.com/IceMael7/NewIceHub/main/Brookhaven"))()                                                    
 							end
 							})
+							
+							
+							
+						local Tab = Window:MakeTab({
+                                                    Name = "Doors",
+                                                    Icon = "rbxassetid://4483345998",
+                                                    PremiumOnly = false
+                                                }) 
+						
+						Tab:AddButton({
+                                                    Name = "Nerd GUI",
+                                                    Callback = function()
+                                                        loadstring(game:HttpGet("https://raw.githubusercontent.com/MrNeRD0/Doors-Hack/main/DoorsV3_ByNerd.lua"))()							
+						        end
+							})
+							
+							Tab:AddButton({
+                                                    Name = "PoopDoors GUI",
+                                                    Callback = function()
+                                                        loadstring(game:HttpGet('https://raw.githubusercontent.com/zoophiliaphobic/POOPDOORS/main/script.lua'))()
+							end
+							})
+    
     
     
         
