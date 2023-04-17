@@ -147,23 +147,23 @@ Tab:AddButton({
 
 
 local Tab = Window:MakeTab({
-	Name = "Personal Scripts",
+	Name = "Scripts I Made",
 	Icon = "rbxassetid://4483345998",
 	PremiumOnly = false
 }) 
 
 Tab:AddButton({
-	Name = "Custom Roblox Editor",
+	Name = "ZaZa Hub V1",
 	Callback = function()
-        loadstring(game:HttpGet("https://eternityhub.xyz/BetterRoblox/Loader"),true)()
-    end    
+                loadstring(game:HttpGet("https://raw.githubusercontent.com/CamiKillz/ZaZa-Hub/main/ZaZa%20Hub"))()    
+	end    
 })
 
 Tab:AddButton({
-	Name = "Custom Roblox Volume",
+	Name = "Rizzer 2.0",
 	Callback = function()
-        loadstring(game:HttpGet("https://pastebin.com/raw/WWj4DExZ"),true)()
-    end    
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/CamiKillz/ZaZa-Hub-Rizzer/main/ZaZa%20Hub%20Rizzer"),true)()
+        end    
 })
 
 
