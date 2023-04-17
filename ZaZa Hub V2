@@ -293,13 +293,20 @@ Tab:AddButton({
                             Callback = function()
                                 loadstring(game:HttpGet("https://raw.githubusercontent.com/nyulachan/nyula/main/nyulauh"))();
                             end
-                            })
-
-                            Tab:AddButton({
+                         })
+		                 Tab:AddButton({
                                 Name = "SpaceX",
                                 Callback = function()
-                                    loadstring(game:HttpGet("https://raw.githubusercontent.com/spacexrandom/Lua/main/DaHood"))()                                end
-                                })
+                                    loadstring(game:HttpGet("https://raw.githubusercontent.com/spacexrandom/Lua/main/DaHood"))()                                
+				    end
+                                })                                
+				
+				 Tab:AddButton({
+                                Name = "RAYX",
+                                Callback = function()
+                                 loadstring(game:HttpGet('https://raw.githubusercontent.com/SpaceYes/Lua/Main/DaHood.Lua'))()  
+				    end
+				 })
 
 
                             
