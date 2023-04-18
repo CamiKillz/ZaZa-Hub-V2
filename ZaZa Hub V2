@@ -114,6 +114,13 @@ loadstring(game:HttpGet("https://pastebin.com/raw/pyR91r2x"))()
 end    
 })
 
+Tab:AddButton({
+	Name = "InstaKill GUI (TOOL REQUIRED)",
+	Callback = function()
+loadstring(game:HttpGet("https://pastebin.com/raw/JGTCGFE2"))()     
+end    
+})
+
 
 
 local Tab = Window:MakeTab({
