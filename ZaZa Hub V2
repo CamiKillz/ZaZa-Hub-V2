@@ -156,6 +156,13 @@ loadstring(game:HttpGet("https://pastebin.com/raw/2h8E1DVT"))()
 end    
 })
 
+Tab:AddButton({
+	Name = "Unanchored Parts GUI",
+	Callback = function()
+loadstring(game:HttpGet("https://pastebin.com/raw/WkZwcGjf", true))()
+end    
+})
+
 
 
 local Tab = Window:MakeTab({
