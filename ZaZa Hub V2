@@ -142,6 +142,13 @@ loadstring(game:HttpGet("https://pastebin.com/raw/6GshKzGk"))()
 end    
 })
 
+Tab:AddButton({
+	Name = "Rewind (Hold E To Rewind)",
+	Callback = function()
+loadstring(game:HttpGet("https://pastebin.com/raw/2h8E1DVT"))()     
+end    
+})
+
 
 
 local Tab = Window:MakeTab({
