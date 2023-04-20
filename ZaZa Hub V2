@@ -121,6 +121,13 @@ loadstring(game:HttpGet("https://pastebin.com/raw/JGTCGFE2"))()
 end    
 })
 
+Tab:AddButton({
+	Name = "Chat Translator",
+	Callback = function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/CamiKillz/loadstring-chat-translate/main/chat%20translator"))()     
+end    
+})
+
 
 
 local Tab = Window:MakeTab({
