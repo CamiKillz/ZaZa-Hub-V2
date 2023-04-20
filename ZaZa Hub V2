@@ -108,6 +108,20 @@ end
 })
 
 Tab:AddButton({
+	Name = "Invisibility GUI",
+	Callback = function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Bebo-Mods/BeboScripts/main/UniversalInvis.lua", true))()  	
+end    
+})
+
+Tab:AddButton({
+	Name = "Invis Tool",
+	Callback = function()
+loadstring(game:HttpGet("https://pastebin.com/raw/Ep7QB76P"))()
+end    
+})
+
+Tab:AddButton({
 	Name = "Yeet Gui",
 	Callback = function()
 loadstring(game:HttpGet("https://pastebin.com/raw/pyR91r2x"))()         
@@ -125,13 +139,6 @@ Tab:AddButton({
 	Name = "Chat Translator",
 	Callback = function()
 loadstring(game:HttpGet("https://raw.githubusercontent.com/CamiKillz/loadstring-chat-translate/main/chat%20translator"))()     
-end    
-})
-
-Tab:AddButton({
-	Name = "Invisibility GUI",
-	Callback = function()
-loadstring(game:HttpGet("https://raw.githubusercontent.com/Bebo-Mods/BeboScripts/main/UniversalInvis.lua", true))()  	
 end    
 })
 
