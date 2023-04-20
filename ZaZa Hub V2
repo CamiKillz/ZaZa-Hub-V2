@@ -173,7 +173,7 @@ local Tab = Window:MakeTab({
 }) 
 
 Tab:AddButton({
-	Name = "R20 Hub",
+	Name = "R20 GUI",
 	Callback = function()
 		loadstring(game:HttpGet(("https://raw.githubusercontent.com/cheesynob39/R20-EXPLOITER/main/Slap_Battles.lua")))()
     end    
