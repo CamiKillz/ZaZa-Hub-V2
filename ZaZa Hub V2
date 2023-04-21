@@ -475,6 +475,23 @@ Tab:AddButton({
                                                         loadstring(game:HttpGet('https://raw.githubusercontent.com/zoophiliaphobic/POOPDOORS/main/script.lua'))()
 							end
 							})
+							
+							local Tab = Window:MakeTab({
+                                                    Name = "Prison Life",
+                                                    Icon = "rbxassetid://4483345998",
+                                                    PremiumOnly = false
+                                                }) 
+						
+						Tab:AddButton({
+                                                    Name = "PrisonWare",
+                                                    Callback = function()
+                                                       loadstring(game:HttpGet("https://raw.githubusercontent.com/Denverrz/scripts/master/PRISONWARE_v1.3.txt"))();						  
+						       end
+						})
+				
+						
+
+
     
     
     
