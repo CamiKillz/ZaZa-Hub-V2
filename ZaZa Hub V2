@@ -136,6 +136,13 @@ end
 })
 
 Tab:AddButton({
+	Name = "Fling (Bypass AntiCheat)",
+	Callback = function()
+loadstring(game:HttpGet('https://pastebin.com/raw/r97d7dS0', true))()  	
+end    
+})
+
+Tab:AddButton({
 	Name = "Chat Translator",
 	Callback = function()
 loadstring(game:HttpGet("https://raw.githubusercontent.com/CamiKillz/loadstring-chat-translate/main/chat%20translator"))()     
