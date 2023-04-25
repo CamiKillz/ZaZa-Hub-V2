@@ -136,7 +136,7 @@ end
 })
 
 Tab:AddButton({
-	Name = "Fling (Bypass AntiCheat)",
+	Name = "Fling GUI (Can Bypass Some AntiCheat)",
 	Callback = function()
 loadstring(game:HttpGet('https://pastebin.com/raw/r97d7dS0', true))()  	
 end    
