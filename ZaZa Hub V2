@@ -206,6 +206,19 @@ Tab:AddButton({
     end    
 })
 
+local Tab = Window:MakeTab({
+	Name = "Executors",
+	Icon = "rbxassetid://4483345998",
+	PremiumOnly = false
+}) 
+
+Tab:AddButton({
+	Name = "Arceus X",
+	Callback = function()
+ loadstring(game:HttpGet("https://raw.githubusercontent.com/AZYsGithub/chillz-workshop/main/Arceus%20X%20V3"))()  	
+ end    
+})
+
 
 
 local Tab = Window:MakeTab({
