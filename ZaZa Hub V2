@@ -515,6 +515,20 @@ Tab:AddButton({
                                                   loadstring(game:HttpGet('https://raw.githubusercontent.com/LiverMods/xRawnder/main/Project'))()						       
 						  end
 						})
+						
+						local Tab = Window:MakeTab({
+	                                     Name = "Lucky Blocks",
+	                                     Icon = "rbxassetid://4483345998",
+	                                     PremiumOnly = false
+                                           }) 
+
+                                         Tab:AddButton({
+                                          Name = "Lucky Blocks Battlegrounds GUI",
+                                          Callback = function()
+                                         loadstring(game:HttpGet(('https://raw.githubusercontent.com/stillnotgivingafuck/LuckyBlocks/main/loader.lua')))()
+					end
+					})
+
 				
 						
 
