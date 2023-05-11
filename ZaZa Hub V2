@@ -202,8 +202,8 @@ Tab:AddButton({
 Tab:AddButton({
 	Name = "Cool Pro Hax Aimbot",
 	Callback = function()
-        loadstring(game:HttpGet("https://raw.githubusercontent.com/CriShoux/OwlHub/master/OwlHub.txt"),true)();
-    end    
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Blissful4992/Miscellaneous/main/UNIVERSAL.lua"))()    
+end    
 })
 
 local Tab = Window:MakeTab({
