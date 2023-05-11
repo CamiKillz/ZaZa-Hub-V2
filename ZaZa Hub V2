@@ -516,6 +516,8 @@ Tab:AddButton({
 						  end
 						})
 						
+						
+						
 						local Tab = Window:MakeTab({
 	                                     Name = "Lucky Blocks",
 	                                     Icon = "rbxassetid://4483345998",
@@ -528,6 +530,22 @@ Tab:AddButton({
                                          loadstring(game:HttpGet(('https://raw.githubusercontent.com/stillnotgivingafuck/LuckyBlocks/main/loader.lua')))()
 					end
 					})
+					
+					
+					
+						local Tab = Window:MakeTab({
+	                                     Name = "Free Admin",
+	                                     Icon = "rbxassetid://4483345998",
+	                                     PremiumOnly = false
+                                           }) 
+					
+					Tab:AddButton({
+                                          Name = "Fedoratum Admin Abuser GUI",
+                                          Callback = function()
+                                         loadstring(game:HttpGet("https://raw.githubusercontent.com/CamiKillz/ZaZa-Hub-Admin-Abuser-Loadstring/main/ZaZa%20Hub%20Admin%20Abuser%20Loadstring"))()     					
+					 end
+					})
+
 
 				
 						
