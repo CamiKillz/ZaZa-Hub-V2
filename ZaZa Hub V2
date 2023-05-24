@@ -236,6 +236,21 @@ end
 
 
 local Tab = Window:MakeTab({
+	Name = "Shaders",
+	Icon = "rbxassetid://4483345998",
+	PremiumOnly = false
+}) 
+
+Tab:AddButton({
+	Name = "Shaders GUI",
+	Callback = function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/AZYsGithub/Chillz-s-scripts/main/enhancer.txt"))()
+end    
+})
+
+
+
+local Tab = Window:MakeTab({
 	Name = "Slap Battles",
 	Icon = "rbxassetid://4483345998",
 	PremiumOnly = false
