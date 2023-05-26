@@ -170,14 +170,6 @@ loadstring(game:HttpGet("https://pastebin.com/raw/WkZwcGjf", true))()
 end    
 })
 
-Tab:AddButton({
-	Name = "Shaders GUI",
-	Callback = function()
-loadstring(game:HttpGet("https://raw.githubusercontent.com/AZYsGithub/Chillz-s-scripts/main/enhancer.txt"))()
-end    
-})
-
-
 
 local Tab = Window:MakeTab({
 	Name = "Aimbots",
