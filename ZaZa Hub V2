@@ -560,6 +560,22 @@ Tab:AddButton({
 					})
 
 
+
+
+	                                       local Tab = Window:MakeTab({
+	                                     Name = "Blade Ball",
+	                                     Icon = "rbxassetid://4483345998",
+	                                     PremiumOnly = false
+                                           }) 
+					
+					Tab:AddButton({
+                                          Name = "BEDOL HUB",
+                                          Callback = function()
+                                         loadstring(game:HttpGet("https://raw.githubusercontent.com/3345-c-a-t-s-u-s/-beta-/main/AutoParry.lua"))()					 
+                                         end
+					})
+
+
 				
 						
 
